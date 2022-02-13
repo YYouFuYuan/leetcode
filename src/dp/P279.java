@@ -2,7 +2,9 @@ package dp;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+    完全背包参考P322 比较标准例子，省去第三层循环
+ */
 public class P279 {
 
     /*
