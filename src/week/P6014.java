@@ -1,5 +1,7 @@
 package week;
 
+import java.util.ArrayList;
+
 public class P6014 {
     public String repeatLimitedString(String s, int repeatLimit) {
         char[] str = s.toCharArray();
@@ -58,5 +60,6 @@ public class P6014 {
     public static void main(String[] args) {
         String s = new P6014().repeatLimitedString("babbbbb",1);
         System.out.println(s);
+
     }
 }
